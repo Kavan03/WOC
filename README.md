@@ -9,37 +9,37 @@
 <ul>
 <li>Backend: NodeJS</li>
 <li>Frontend: React</li>
-<li>Services Used: Elastic Beanstalk, Cognito, DynamoDB, S3, Event Bridge, Lambda, VPC and Cloud Formation</li>
+<li>Services Used: AWS Cognito was used for user authentication. Lambda with inbuilt function URLs for the backend, AWS S3, and DynamoDB for managing the storage, and AWS EventBridge to trigger lambda to fetch a new word at certain intervals. AWS cloud formation and Elastic Beanstalk were used to deploy the application. All services were configured under the same VPC network.</li>
 <li>Hosted on: AWS Elastic Beanstalk</li>
 </ul>
 <h3>Application Screenshots</h3>
 <h4>Cloud Architecture</h4>
-<img width="1440" alt="login" src="https://user-images.githubusercontent.com/49091989/183277597-1e3d02c6-b80b-4b87-89ab-d0947dba6a60.jpg">
+<img width="500" alt="login" src="https://user-images.githubusercontent.com/49091989/183277597-1e3d02c6-b80b-4b87-89ab-d0947dba6a60.jpg">
 <h4>Login Page</h4>
-<img width="1440" alt="login" src="https://user-images.githubusercontent.com/49091989/183275807-45532e69-528f-4830-9652-e3c8e8da0f26.png">
+<img width="500" alt="login" src="https://user-images.githubusercontent.com/49091989/183275807-45532e69-528f-4830-9652-e3c8e8da0f26.png">
 <h4>Signup Page</h4>
-<img width="1440" alt="signup" src="https://user-images.githubusercontent.com/49091989/183275812-ac648352-552f-4316-9f34-730f25d0e69f.png">
+<img width="500" alt="signup" src="https://user-images.githubusercontent.com/49091989/183275812-ac648352-552f-4316-9f34-730f25d0e69f.png">
 <h4>Home Page</h4>
-<img width="1440" alt="home" src="https://user-images.githubusercontent.com/49091989/183275803-1403d854-27ee-4502-89a4-c4dcee930c9f.png">
+<img width="500" alt="home" src="https://user-images.githubusercontent.com/49091989/183275803-1403d854-27ee-4502-89a4-c4dcee930c9f.png">
 <h4>Playing a game</h4>
-<img width="1440" alt="play" src="https://user-images.githubusercontent.com/49091989/183275809-999f2501-ec87-4adc-bde3-9b63c70e794f.png">
+<img width="500" alt="play" src="https://user-images.githubusercontent.com/49091989/183275809-999f2501-ec87-4adc-bde3-9b63c70e794f.png">
 <h4>Game already played in that day</h4>
-<img width="1440" alt="ifplayed" src="https://user-images.githubusercontent.com/49091989/183275804-c171b927-34aa-48ac-991c-cb49a3b02ada.png">
+<img width="500" alt="ifplayed" src="https://user-images.githubusercontent.com/49091989/183275804-c171b927-34aa-48ac-991c-cb49a3b02ada.png">
 <h4>Leaderboard</h4>
-<img width="1440" alt="leaderboard" src="https://user-images.githubusercontent.com/49091989/183275806-2773e6db-adb8-456f-9fc0-5adcf44604bf.png">
+<img width="500" alt="leaderboard" src="https://user-images.githubusercontent.com/49091989/183275806-2773e6db-adb8-456f-9fc0-5adcf44604bf.png">
 <h4>Validations</h4>
-<img width="1440" alt="validations" src="https://user-images.githubusercontent.com/49091989/183275813-b81cbebf-e88b-47fc-b39a-0c52cd6a6709.png">
+<img width="500" alt="validations" src="https://user-images.githubusercontent.com/49091989/183275813-b81cbebf-e88b-47fc-b39a-0c52cd6a6709.png">
 <h4>Create a custom game<h4>
-<img width="1440" alt="creategame" src="https://user-images.githubusercontent.com/49091989/183275801-9c2758b8-958b-49f6-9579-852f30531312.png">
+<img width="500" alt="creategame" src="https://user-images.githubusercontent.com/49091989/183275801-9c2758b8-958b-49f6-9579-852f30531312.png">
 <h4>Access the link of created game</h4>
-<img width="1440" alt="accesslink" src="https://user-images.githubusercontent.com/49091989/183275799-2e92ffc6-6867-4036-a7bb-969f8722292c.png">
+<img width="500" alt="accesslink" src="https://user-images.githubusercontent.com/49091989/183275799-2e92ffc6-6867-4036-a7bb-969f8722292c.png">
 <h4>Playing custom created game</h4>
-<img width="1440" alt="playcustom" src="https://user-images.githubusercontent.com/49091989/183275810-9811e756-3041-4b96-9da1-7818c3f8a35b.png">
+<img width="500" alt="playcustom" src="https://user-images.githubusercontent.com/49091989/183275810-9811e756-3041-4b96-9da1-7818c3f8a35b.png">
 <h4>Forgot Password</h4>
-<img width="1440" alt="forgot" src="https://user-images.githubusercontent.com/49091989/183275802-6b9e1b3c-c4d4-4f71-b8b5-d3a78ee5d871.png">
+<img width="500" alt="forgot" src="https://user-images.githubusercontent.com/49091989/183275802-6b9e1b3c-c4d4-4f71-b8b5-d3a78ee5d871.png">
 <h4>Email sent with verification code</h4>
-<img width="375" alt="codesent" src="https://user-images.githubusercontent.com/49091989/183275800-7ddb00e0-3637-4814-a711-72f7e71e5cc7.png">
+<img width="500" alt="codesent" src="https://user-images.githubusercontent.com/49091989/183275800-7ddb00e0-3637-4814-a711-72f7e71e5cc7.png">
 <h4>Resetting password</h4>
-<img width="1440" alt="reset" src="https://user-images.githubusercontent.com/49091989/183275811-2d05f248-797e-48c9-99e7-2cd15fdf41a9.png">
+<img width="500" alt="reset" src="https://user-images.githubusercontent.com/49091989/183275811-2d05f248-797e-48c9-99e7-2cd15fdf41a9.png">
 <h4>Password resetted successfully</h4>
-<img width="1440" alt="passwordreset" src="https://user-images.githubusercontent.com/49091989/183275808-0ce75f62-c6bd-4f9e-be33-5b08094ef2a7.png">
+<img width="500" alt="passwordreset" src="https://user-images.githubusercontent.com/49091989/183275808-0ce75f62-c6bd-4f9e-be33-5b08094ef2a7.png">
