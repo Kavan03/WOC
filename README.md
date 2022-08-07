@@ -13,6 +13,8 @@
 <li>Hosted on: AWS Elastic Beanstalk</li>
 </ul>
 <h3>Application Screenshots</h3>
+<h4>Cloud Architecture</h4>
+<img width="1440" alt="login" src="https://user-images.githubusercontent.com/49091989/183277597-1e3d02c6-b80b-4b87-89ab-d0947dba6a60.jpg">
 <h4>Login Page</h4>
 <img width="1440" alt="login" src="https://user-images.githubusercontent.com/49091989/183275807-45532e69-528f-4830-9652-e3c8e8da0f26.png">
 <h4>Signup Page</h4>
