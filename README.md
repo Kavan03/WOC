@@ -1,92 +1,43 @@
-# Group 25
-
-
-
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://git.cs.dal.ca/courses/2022-summer/csci4145-5409/group-25.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://git.cs.dal.ca/courses/2022-summer/csci4145-5409/group-25/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+<h1>Word on Cloud (WOC)</h1>
+<h3>Overview</h3>
+<p>People are starting to come out of their houses and gather again with decreasing number of COVID cases. Everyone is loving to interact with others, meet their loved ones, and have a leisure time with them. So, we decided to create a game. The list of things it can be useful for is endless. An individual can play it alone while in isolation or just for enjoyment. A professor can give test questions on this game and make the quiz entertaining. It can not only be played by small kids to whom this can help increase vocabulary, general knowledge, and any or every field they would like to explore, but professors at university can also provide students with the question of their related course. A host of the party can make the question of the quiz fun, and personal and leading to laughter. We are aiming at a high audience and above all to achieve the main motto of life which is FUN.</p>
+<p>Our application will require registered users to log in to the game, also they need to be verified users. On login, the user will get two options. One option is to create a word and the other is to play.</p>
+<p>When a user selects the option to play, they will be given a grid to enter a random word which can be guessed from the number of letters that word has. On guessing the word, the user will be provided with a hint on to how much extent the word is correct. If a letter of the word guessed is present in the actual word and is also present at the right place the letter will be highlighted in green, if the letter guessed is present in the actual word but is not at the right position then it will be highlighted in the gray and if the letter guessed is not present in the actual word, then it will be highlighted red. For example, the actual word is “cloud”, and someone guesses the word as “drone”. Here we can see that “o” is at the correct position so it will be highlighted green, “d” is present in the actual word but not at the correct position so it will be gray, “r”, “n” and “e” are not present in actual word so they will be highlighted in red color. The player will also be able to check the leaderboard which will show the number of times they have guessed the correct word, the average number of attempts, the average time it took for the correct attempt, and where they stand as compared to other people who played this word. In this format, the same word will be displayed to all people at a certain time to make the leaderboard unbiased. This word will change at specific intervals. Now let’s say the user forgot the password! Yes, they can update it. We will send a change password email to the user.</p>
+<p>When the user selects the option to create a game. They can decide if they want to provide the hint in form of a question or just a word. Once they submit the hint and the answer, a link will be generated which can be shared with the group of people who wants to play. When this shared link is visited, the player does not require to register themselves. They can play directly, and this link will remain valid only for a specific time. In this format, we will not display the leaderboard.</p>
+<p>In building this game we are using Amazon Web Services like Elastic Beanstalk, Lambda for computing, DynamoDB for storage, VPC for Network, and others. The game will be available as software to play and therefore, the delivery model is SaaS (Software as a Service).</p>
+<h3>Build With</h3>
+<ul>
+<li>Backend: NodeJS</li>
+<li>Frontend: React</li>
+<li>Services Used: Elastic Beanstalk, Cognito, DynamoDB, S3, Event Bridge, Lambda, VPC and Cloud Formation</li>
+<li>Hosted on: AWS Elastic Beanstalk</li>
+</ul>
+<h3>Application Screenshots</h3>
+<h4>Login Page</h4>
+<img width="1440" alt="login" src="https://user-images.githubusercontent.com/49091989/183275807-45532e69-528f-4830-9652-e3c8e8da0f26.png">
+<h4>Signup Page</h4>
+<img width="1440" alt="signup" src="https://user-images.githubusercontent.com/49091989/183275812-ac648352-552f-4316-9f34-730f25d0e69f.png">
+<h4>Home Page</h4>
+<img width="1440" alt="home" src="https://user-images.githubusercontent.com/49091989/183275803-1403d854-27ee-4502-89a4-c4dcee930c9f.png">
+<h4>Playing a game</h4>
+<img width="1440" alt="play" src="https://user-images.githubusercontent.com/49091989/183275809-999f2501-ec87-4adc-bde3-9b63c70e794f.png">
+<h4>Game already played in that day</h4>
+<img width="1440" alt="ifplayed" src="https://user-images.githubusercontent.com/49091989/183275804-c171b927-34aa-48ac-991c-cb49a3b02ada.png">
+<h4>Leaderboard</h4>
+<img width="1440" alt="leaderboard" src="https://user-images.githubusercontent.com/49091989/183275806-2773e6db-adb8-456f-9fc0-5adcf44604bf.png">
+<h4>Validations</h4>
+<img width="1440" alt="validations" src="https://user-images.githubusercontent.com/49091989/183275813-b81cbebf-e88b-47fc-b39a-0c52cd6a6709.png">
+<h4>Create a custom game<h4>
+<img width="1440" alt="creategame" src="https://user-images.githubusercontent.com/49091989/183275801-9c2758b8-958b-49f6-9579-852f30531312.png">
+<h4>Access the link of created game</h4>
+<img width="1440" alt="accesslink" src="https://user-images.githubusercontent.com/49091989/183275799-2e92ffc6-6867-4036-a7bb-969f8722292c.png">
+<h4>Playing custom created game</h4>
+<img width="1440" alt="playcustom" src="https://user-images.githubusercontent.com/49091989/183275810-9811e756-3041-4b96-9da1-7818c3f8a35b.png">
+<h4>Forgot Password</h4>
+<img width="1440" alt="forgot" src="https://user-images.githubusercontent.com/49091989/183275802-6b9e1b3c-c4d4-4f71-b8b5-d3a78ee5d871.png">
+<h4>Email sent with verification code</h4>
+<img width="375" alt="codesent" src="https://user-images.githubusercontent.com/49091989/183275800-7ddb00e0-3637-4814-a711-72f7e71e5cc7.png">
+<h4>Resetting password</h4>
+<img width="1440" alt="reset" src="https://user-images.githubusercontent.com/49091989/183275811-2d05f248-797e-48c9-99e7-2cd15fdf41a9.png">
+<h4>Password resetted successfully</h4>
+<img width="1440" alt="passwordreset" src="https://user-images.githubusercontent.com/49091989/183275808-0ce75f62-c6bd-4f9e-be33-5b08094ef2a7.png">
